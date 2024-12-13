@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: unset;
   font-size: 1.1rem;
+  line-height: 1;
   margin: 0;
   padding: 0;
 }
@@ -13,10 +14,6 @@
 
 :where(body > .entry-point) {
   padding: 2em;
-}
-
-:where(body > .entry-point > *:not(img)) {
-  line-height: 1;
 }
 
 :where(h1) {
